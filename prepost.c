@@ -8,7 +8,7 @@ struct stack
 };
 typedef struct stack Stack;
 void postfix();
-void postfix();
+void prefix();
 int pop(Stack**);
 void push(Stack**,int);
 void main()
